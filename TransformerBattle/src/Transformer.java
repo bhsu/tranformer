@@ -85,9 +85,6 @@ public class Transformer implements Comparable<Transformer> {
 		}
 
 		for (int i = 0; i < arraySize; i++) {
-			
-			System.out.println("should be  " + decipticonArray.get(i).getName() + " " + autobotArray.get(i).getName() );
-			System.out.println("kingbot " + kingofDecipticon + " " + kingOfAutobot);
 
 			// special rules
 			if (autobotArray.get(i).getName().equals(kingOfAutobot)
